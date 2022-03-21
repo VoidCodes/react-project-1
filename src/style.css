@@ -1,0 +1,78 @@
+p {
+  line-height: 2rem;
+}
+
+/* Navbar Section */
+nav ul li a{
+  color: black;
+}
+
+.sidenav-trigger {
+  color: #2196f3;
+}
+
+.brand-logo {
+  height: 65px; 
+  vertical-align: middle
+}
+
+/* Hero Section */
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+/* Course Section */
+.carousel {
+  height: 10px
+}
+
+.carousel .carousel-item {
+  width: 400px !important;
+  padding: 20px;
+}
+
+#UnderlineText {
+  text-decoration: underline;
+}
+
+/* Footer Section */
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Responsive Section */
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .carousel {
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .carousel {
+    height: 10px;
+  }
+}
