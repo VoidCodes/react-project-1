@@ -7,7 +7,7 @@ function Footer() {
         <div className="row">
           <div className="col l6 s12">
             <h5 className="white-text">Biography</h5>
-            <p className="grey-text text-lighten-4">This website is just a clone of my school project that i did, but rewritten in <a className="blue-text text-lighten-2" href="https://reactjs.org/">ReactJS</a></p>
+            <p className="grey-text text-lighten-4">This website is just a static clone of my school project that i did, but rewritten in <a className="blue-text text-lighten-2" href="https://reactjs.org/">ReactJS</a></p>
           </div>
           <div className="col l3 s12">
             <h5 className="white-text">Social media</h5>

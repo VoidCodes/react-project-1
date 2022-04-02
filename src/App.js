@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 function App() {
   useEffect(() => {
     M.AutoInit();
-    M.Sidenav.init();
+    //M.Sidenav.init();
   }, []);
   return (
     <div className="App">
